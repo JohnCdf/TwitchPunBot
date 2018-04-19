@@ -1,19 +1,19 @@
 module.exports = [
   {
-    q: 'what do you call a cow with no feet?',
-    a: 'ground beef!'
+    q: 'Can a kangaroo jump higher than a house?',
+    a: 'ofcourse he can. houses dont even jump'
   },
   {
-    q: 'Did you hear about the italian chef?',
-    a: 'He PASTA-way!'
+    q: 'What do you call a fake noodle?',
+    a: 'An impasta.'
   },
   {
-    q: 'Did you hear about the guy that got the left side of this body cut off?',
-    a: 'Hes all right now.'
+    q: 'Why are there gates around cementeries?',
+    a: 'Because people are dying to get out.'
   },
   {
-    q: 'Why are frogs so happy?',
-    a: 'They eat whatever bugs them.'
+    q: 'What lights up a soccer stadium?',
+    a: 'A soccer match.'
   },
   {
     q: 'Why dont all couples go to the gym?',
@@ -36,8 +36,8 @@ module.exports = [
     a: 'a Maybe. Kappa'
   },
   {
-    q: 'What do you call a karate pig?',
-    a: 'pork chop.'
+    q: 'Why did the barber win the race?',
+    a: 'He took a short cut.'
   },
   {
     q: 'What do you call a lazy kangaroo?',
