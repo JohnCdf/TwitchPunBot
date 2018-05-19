@@ -49,16 +49,15 @@ client.on('connected',function(address, port) {//will connect the bot to the cha
       client.action(chann, joke.a)//punchline!
     },6000)
 
-  },20000)//interval to wait between jokes
+  },1000 * 55)//interval to wait between jokes
 
 });
 
 client.on("join", function (channel, username, self) {
-  if (self) {
-    client.action(chann, 'the pun bot has joined (::')
-    return
+  if (!self) {
+    client.action(chann, 'Welcome, ' + username + '! enjoy your stay ' + randomMoji())
   }
-  client.action(chann, 'Welcome, ' + username + '! enjoy your stay ' + randomMoji())
+  
 });
 
 client.on("part", function (channel, username, self) {
