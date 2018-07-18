@@ -1,7 +1,7 @@
 const tmi = require('tmi.js')
 const jokes = require('./jokes')
 
-var chann = "" //channel to send messages to
+var chann = ""; //channel to send messages to
 
 var conf = {
   options: {
